@@ -45,6 +45,7 @@ const Review= ()=>{
 
     const [index,setIndex] = useState(0);
     const {id,name,job,image,text}= reviewData[index];
+    let ID= `author-${id}`
 
 
 
@@ -78,7 +79,7 @@ const Review= ()=>{
     return(
         <div className="review">
             <div>
-                <p author-id={id} className="author">{name}</p>
+                <p id={ID} className="author">{name}</p>
                 <p className="job">{job}</p>
                 <p className="info">{text}</p>
                 <img src={image} className="person-img"  />
