@@ -10,3 +10,7 @@ button{
     justify-content: center;
     align-items: center;
 }
+img{
+    width:350px;
+    height: 400px;
+}
