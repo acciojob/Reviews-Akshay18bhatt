@@ -78,7 +78,7 @@ const Review= ()=>{
     return(
         <div className="review">
             <div>
-                <p id={id} className="author">{name}</p>
+                <p id="author-1" className="author">{name}</p>
                 <p className="job">{job}</p>
                 <p className="info">{text}</p>
                 <img src={image} className="person-img"  />
@@ -86,7 +86,7 @@ const Review= ()=>{
             <div>
                 <button onClick={nextClick} className="next-btn">next</button>
                 <button onClick={prevClick} className="prev-btn">previous</button>
-                <button onClick={randomClick} className="random-btn">random</button>
+                <button onClick={randomClick} className="random-btn">surprise me</button>
             </div>
 
         
