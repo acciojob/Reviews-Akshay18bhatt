@@ -78,7 +78,7 @@ const Review= ()=>{
     return(
         <div className="review">
             <div>
-                <p id="author-1" className="author">{name}</p>
+                <p author-id={id} className="author">{name}</p>
                 <p className="job">{job}</p>
                 <p className="info">{text}</p>
                 <img src={image} className="person-img"  />
